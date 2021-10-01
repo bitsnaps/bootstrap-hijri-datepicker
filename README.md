@@ -1,3 +1,5 @@
+P.S. This fork is made to support Bootstrap 3.x, please checkout the [bs3](https://github.com/bitsnaps/bootstrap-hijri-datepicker/tree/bs3) branch.
+
 # Demo
 See  [Live Demo](http://hijri-datepicker.azurewebsites.net/)
 
@@ -30,7 +32,7 @@ use css and javascript files in `dist` folder
 #### js
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
 
 <script src="js/bootstrap-hijri-datepicker.min.js"></script>
@@ -55,7 +57,7 @@ use css and javascript files in `dist` folder
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
 <script src="js/bootstrap-hijri-datepicker.min.js"></script>
-    
+
 <script type="text/javascript">
     $(function () {
         $("#hijri-date-input").hijriDatePicker();
