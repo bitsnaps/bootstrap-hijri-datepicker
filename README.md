@@ -1,19 +1,15 @@
-# Demo
-See  [Live Demo](http://hijri-datepicker.azurewebsites.net/)
+# Bootstrap Hijri Date picker v1.0.0 for Bootstrap 3.x
 
-# Getting Started
-Bootstrap Hijri Date picker v1.0.0
+This fork is made to support Bootstrap 3.x.
 
-![sample](http://files.balbarak.com/file/598299)
-![sample two](http://files.balbarak.com/file/58464)
+See the example at `/samples/index.html`.
 
 ## Installation
 
-Download the [latest release](https://github.com/balbarak/bootstrap-hijri-datepicker/releases) or
-use css and javascript files in `dist` folder
+Download or clone the [repo](https://github.com/bitsnaps/bootstrap-hijri-datepicker), then use css and javascript files in `dist` folder.
 
 ### Required libraries
-* Jquery >  v3.1 [jquery](https://jquery.com/)
+* JQuery >  v2 [jquery](https://jquery.com/)
 * Moment.js > v2.2 [momenjs](https://momentjs.com/)
 
 ## Usage
@@ -22,7 +18,7 @@ use css and javascript files in `dist` folder
 
 #### css
 ```html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 
 <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet" />
 ```
@@ -30,9 +26,7 @@ use css and javascript files in `dist` folder
 #### js
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
-
 <script src="js/bootstrap-hijri-datepicker.min.js"></script>
 ```
 
@@ -55,7 +49,7 @@ use css and javascript files in `dist` folder
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
 <script src="js/bootstrap-hijri-datepicker.min.js"></script>
-    
+
 <script type="text/javascript">
     $(function () {
         $("#hijri-date-input").hijriDatePicker();
@@ -72,7 +66,7 @@ use css and javascript files in `dist` folder
     <title>
         Bootstrap Hijri Date Picker
     </title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet" />
 
 </head>
@@ -117,5 +111,6 @@ This project was built from great work done by
 * @xosh https://github.com/xsoh/moment-hijri
 * @Eonasdan https://github.com/Eonasdan/bootstrap-datetimepicker
 * @iOsama https://github.com/iOsama
+
 ## License
 MIT
